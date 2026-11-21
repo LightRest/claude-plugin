@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "lightrest-verify": {
+      "type": "http",
+      "url": "https://lightrest.net/mcp/verify"
+    }
+  }
+}

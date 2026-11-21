@@ -1,0 +1,21 @@
+{
+  "name": "lightrest-verify",
+  "displayName": "LightRest record check",
+  "version": "0.1.0",
+  "description": "Check a LightRest review record. No account needed.",
+  "author": {
+    "name": "LightRest",
+    "url": "https://lightrest.net"
+  },
+  "homepage": "https://lightrest.net/developers/mcp",
+  "repository": "https://github.com/LightRest/claude-plugin",
+  "license": "Apache-2.0",
+  "keywords": [
+    "verification",
+    "verifiable-credentials",
+    "human-review",
+    "audit",
+    "mcp"
+  ],
+  "privacyPolicyUrl": "https://lightrest.net/legal/privacy-policy"
+}

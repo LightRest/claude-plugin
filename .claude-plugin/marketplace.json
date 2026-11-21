@@ -1,0 +1,17 @@
+{
+  "name": "lightrest",
+  "description": "LightRest plugins for Claude Code",
+  "owner": {
+    "name": "LightRest",
+    "url": "https://lightrest.net"
+  },
+  "plugins": [
+    {
+      "name": "lightrest-verify",
+      "source": "./plugins/lightrest-verify",
+      "description": "Check a LightRest review record. No account needed.",
+      "homepage": "https://lightrest.net/developers/mcp",
+      "category": "productivity"
+    }
+  ]
+}
