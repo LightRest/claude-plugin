@@ -1,0 +1,30 @@
+{
+  "name": "lightrest",
+  "displayName": "LightRest human review",
+  "version": "0.3.0",
+  "description": "A person reviews and seals what your agent produced.",
+  "author": {
+    "name": "LightRest",
+    "url": "https://lightrest.net"
+  },
+  "homepage": "https://lightrest.net/developers/mcp",
+  "repository": "https://github.com/LightRest/claude-plugin",
+  "license": "Apache-2.0",
+  "keywords": [
+    "human-review",
+    "human-in-the-loop",
+    "oversight",
+    "audit",
+    "mcp"
+  ],
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "LightRest agent key",
+      "description": "An lr_agt_ key from https://lightrest.net/app/agents. Sent as the bearer on every call to https://lightrest.net/mcp and stored in your credential store, not in settings.json.",
+      "sensitive": true,
+      "required": true
+    }
+  },
+  "privacyPolicyUrl": "https://lightrest.net/legal/privacy-policy"
+}

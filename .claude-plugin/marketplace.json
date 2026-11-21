@@ -7,6 +7,13 @@
   },
   "plugins": [
     {
+      "name": "lightrest",
+      "source": "./plugins/lightrest",
+      "description": "A person reviews and seals what your agent produced.",
+      "homepage": "https://lightrest.net/developers/mcp",
+      "category": "productivity"
+    },
+    {
       "name": "lightrest-verify",
       "source": "./plugins/lightrest-verify",
       "description": "Check a LightRest review record. No account needed.",

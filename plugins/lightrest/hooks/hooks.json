@@ -1,0 +1,19 @@
+{
+  "description": "The action guard: a production call waits for a person's passkey before it runs.",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash|PowerShell|Monitor|mcp__.*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node",
+            "args": ["${CLAUDE_PLUGIN_ROOT}/hooks/guard.mjs"],
+            "onFailure": "block",
+            "timeout": 600
+          }
+        ]
+      }
+    ]
+  }
+}

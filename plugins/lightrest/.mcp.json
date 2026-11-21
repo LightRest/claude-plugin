@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "lightrest": {
+      "type": "http",
+      "url": "https://lightrest.net/mcp",
+      "headers": {
+        "Authorization": "Bearer ${user_config.api_key}"
+      }
+    }
+  }
+}
